@@ -1,0 +1,13 @@
+notes/
+.DS_Store
+/vendor/
+/wp/
+wp-config.php
+/content/*
+!/content/themes/
+/content/themes/*
+!/content/themes/ocooking
+!/content/plugins/
+/content/plugins/*
+!/content/plugins/ocooking-settings
+!/content/uploads/
