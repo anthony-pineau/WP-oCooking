@@ -66,7 +66,8 @@ class Recipe_cpt
                 // http://ocooking.fr/burger-bien-fat
             ],
             'capability_type'   => 'recipe',
-            'map_meta_cap'      => true
+            'map_meta_cap'      => true,
+            'show_in_rest'      => true,
         ];
 
         register_post_type('recipe', $args);

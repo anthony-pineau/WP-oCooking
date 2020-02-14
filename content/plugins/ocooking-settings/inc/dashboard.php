@@ -5,11 +5,11 @@ function ocooking_add_dashboard_widgets()
     wp_add_dashboard_widget(
         'ocooking_dashboard_widget_pub', // Nom de mon widget
         'oCooking International Production', // Titre de l'element
-        'oagency_dashboard_widget_function' // Fonction en callback
+        'ocooking_dashboard_widget_function' // Fonction en callback
     );
 }
 
-function oagency_dashboard_widget_function()
+function ocooking_dashboard_widget_function()
 {
     ?>
     <h3>Pour contacter le responsable informatique:</h3>
