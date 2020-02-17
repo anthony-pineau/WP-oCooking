@@ -11,6 +11,7 @@ if (!defined('WPINC')) {die();}
 
 // Inclusion des différentes classes necessaire au plugin
 require plugin_dir_path(__FILE__) . 'inc/recipe_cpt.php';
+require plugin_dir_path(__FILE__) . 'inc/rest_api.php';
 require plugin_dir_path(__FILE__) . 'inc/role.php';
 require plugin_dir_path(__FILE__) . 'inc/settings.php';
 require plugin_dir_path(__FILE__) . 'inc/template-tags.php';
@@ -23,6 +24,9 @@ $recipe_cpt = new Recipe_cpt();
 
 register_activation_hook(__FILE__, [$recipe_cpt, 'activation']);
 register_deactivation_hook(__FILE__, [$recipe_cpt, 'deactivation']);
+
+// REST API
+$ocooking_rest_api = new oCookingRestApi();
 
 // ROLES
 $ocooking_role = new oCookingRole();
