@@ -13,5 +13,8 @@
  */
 define( 'WP_USE_THEMES', true );
 
+// Je demande à PHP d'attendre 3 secondes avant de continuer
+sleep(1);
+
 /** Loads the WordPress Environment and Template */
 require( dirname( __FILE__ ) . '/wp/wp-blog-header.php' );

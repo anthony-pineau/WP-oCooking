@@ -103,7 +103,8 @@ class Recipe_cpt
                 'edit_terms'    => 'edit_recipes',
                 'delete_terms'  => 'delete_recipes',
                 'assign_terms'  => 'edit_recipes',
-            ]
+            ],
+            'show_in_rest'      => true,
         ];
 
         register_taxonomy('ingredient', 'recipe', $args);
