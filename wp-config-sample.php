@@ -70,6 +70,10 @@ $table_prefix = 'wp_';
 define( 'WP_CONTENT_URL', '' );
 define( 'WP_CONTENT_DIR', dirname(__FILE__) . '/content' );
 
+// JTW
+define('JWT_AUTH_SECRET_KEY', 'your-top-secret-key');
+define('JWT_AUTH_CORS_ENABLE', true);
+
 /**
  * For developers: WordPress debugging mode.
  *

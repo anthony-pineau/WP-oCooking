@@ -9,7 +9,8 @@
         "johnpbloch/wordpress": "^5.2",
         "wpackagist-theme/twentynineteen":"*",
         "wpackagist-plugin/advanced-custom-fields":"*",
-        "wpackagist-plugin/contact-form-7":"*"
+        "wpackagist-plugin/contact-form-7":"*",
+        "wpackagist-plugin/jwt-authentication-for-wp-rest-api":"*"
     },
     "require-dev": {
         "wpackagist-plugin/simply-show-hooks":"*",
